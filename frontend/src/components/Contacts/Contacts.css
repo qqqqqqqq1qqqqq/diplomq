@@ -1,0 +1,130 @@
+@media (min-width: 450px) {
+  .contacts_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  .contacts_title {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .contacts_subtitle {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .contacts_items {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .contacts_location {
+    max-width: 20vw;
+  }
+
+  .contacts_numbers_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts_numbers_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contacts_image {
+    max-width: 2rem;
+  }
+
+  .contacts_numbers_wrapper {
+    width: 20vw;
+  }
+
+  .contacts_text {
+    text-decoration: none;
+    margin-block: 1rem;
+    font-weight: 400;
+    font-size: 1.05rem;
+    text-align: justify;
+    word-spacing: 0.2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .contacts_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .contacts_title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .contacts_subtitle {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contacts_items {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .contacts_numbers_wrapper{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts_numbers_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts_numbers_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 0.5rem;
+  }
+
+  .contacts_text {
+    text-decoration: none;
+    margin-block: 1rem;
+    font-weight: 400;
+    font-size: 1.05rem;
+    text-align: justify;
+    word-spacing: 0.2rem;
+  }
+
+  .contacts_image {
+    max-width: 2rem;
+  }
+  .contacts_location {
+    max-width: 20rem;
+    align-self: center;
+  }
+}

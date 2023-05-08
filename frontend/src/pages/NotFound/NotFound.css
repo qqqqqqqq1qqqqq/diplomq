@@ -1,0 +1,56 @@
+@media (min-width: 450px) {
+  .notfound_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 4.75rem);
+  }
+
+  .notfound_items {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .notfound_img {
+    max-width: 37.5rem;
+    padding-top: 1rem;
+  }
+
+  .notfound_text {
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Poltawski Nowy', serif;
+  }
+}
+
+@media (max-width: 450px) {
+  .notfound_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+  }
+
+  .notfound_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notfound_text {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .notfound_img {
+    max-width: 20rem;
+    padding-top: 1rem;
+  }
+}

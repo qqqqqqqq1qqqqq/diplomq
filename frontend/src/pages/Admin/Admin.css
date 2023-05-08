@@ -1,0 +1,23 @@
+@media (min-width: 450px) {
+  .admin_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .admin_items {
+    align-self: center;
+    justify-self: center;
+    width: 140vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .admin_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

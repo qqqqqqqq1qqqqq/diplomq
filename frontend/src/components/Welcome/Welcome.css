@@ -1,0 +1,11 @@
+@media (min-width: 450px) {
+  .welcome_container {
+    margin-block: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .welcome_container {
+    display: none;
+  }
+}

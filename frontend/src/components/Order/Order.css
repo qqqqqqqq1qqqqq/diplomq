@@ -1,0 +1,43 @@
+@media (min-width: 450px) {
+  .order_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #00000075;
+  }
+
+  .order_item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 10rem;
+  }
+
+  .order_button_image {
+    max-width: 2rem;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 450px) {
+  .order_items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border: 1px solid #000000;
+    border-radius: .5rem;
+    padding: 1rem;
+  }
+
+  .order_item{
+    margin-bottom: .5rem;
+  }
+
+  .order_button_image {
+    max-width: 2rem;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,20 @@
+@media (min-width: 450px) {
+  .main_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .main_items {
+    align-self: center;
+    justify-self: center;
+    width: 120vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .main_items {
+    width: 100vw;
+  }
+}
