@@ -1,2 +1,2 @@
 # diplomq
-http://beatypoltava.zzz.com.ua/
+## http://beatypoltava.zzz.com.ua/
